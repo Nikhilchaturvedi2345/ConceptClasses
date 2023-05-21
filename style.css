@@ -712,6 +712,11 @@ video {
   margin-bottom: 5rem;
 }
 
+.my-96 {
+  margin-top: 24rem;
+  margin-bottom: 24rem;
+}
+
 .-ml-2 {
   margin-left: -0.5rem;
 }
@@ -1597,6 +1602,10 @@ video {
 
 .pt-24 {
   padding-top: 6rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
 }
 
 .text-left {
