@@ -707,6 +707,11 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .-ml-2 {
   margin-left: -0.5rem;
 }
