@@ -10,6 +10,59 @@
 </head>
 
 <body class="bg-slate-50">
+
+    <nav class="
+    flex flex-wrap
+    items-center
+    justify-between
+   
+    py-4
+    md:py-0
+    px-6
+    text-lg text-gray-700
+    bg-white
+    container
+    md:mt-12
+    pt-5
+    md:pt-10
+    rounded-t-xl
+  ">
+        <div>
+            <a href="./index.html">
+                <img src="https://yt3.googleusercontent.com/Q3wx2HmNayVLtKKTJC4FsvEgrwhxksdSTVSURn_wNRX9nWofSAnigW4Sw_v4hsvP9DJ00fwlTQ=s176-c-k-c0x00ffffff-no-rj"
+                    alt="Logo png" class="w-12 h-12 rounded-full">
+            </a>
+
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" id="menu-button" class="h-6 w-6 cursor-pointer md:hidden block"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+
+        <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+            <ul class="
+        pt-4
+        text-base text-gray-700
+        md:flex
+        md:justify-between 
+        md:pt-0">
+                <li>
+                    <a class="md:p-4 py-2 block hover:text-purple-400" href="./courseDescription.html">All Courses</a>
+                </li>
+                <li>
+                    <a class="md:p-4 py-2 block hover:text-purple-400" href="./freecourses.html">Free Material</a>
+                </li>
+                <li>
+                    <a class="md:p-4 py-2 block hover:text-purple-400" href="#">About Us</a>
+                </li>
+                <li>
+                    <a class="md:p-4 py-2 block hover:text-purple-400 text-purple-500" href="./signUp.html">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
     <div class="container text-center bg-white">
         <div
             class="container shadow-lg shadow-slate-500 rounded-3xl flex justify-between items-center flex-col md:flex-row mb-10">
@@ -135,5 +188,16 @@
         </div>
     </div>
 </body>
+<script>
+    // navbar 
+    const button = document.querySelector('#menu-button');
+    const menu = document.querySelector('#menu');
+
+
+    button.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+    });
+
+</script>
 
 </html>
