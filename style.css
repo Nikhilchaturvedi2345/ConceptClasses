@@ -2448,6 +2448,10 @@ video {
     height: 24rem;
   }
 
+  .lg\:h-auto {
+    height: auto;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
